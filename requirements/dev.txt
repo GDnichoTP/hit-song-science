@@ -1,0 +1,7 @@
+# Model development: notebooks, evaluation and plots.
+-r base.txt
+
+tqdm==4.70.1
+matplotlib==3.11.2
+seaborn==0.13.2
+ipykernel==7.4.0

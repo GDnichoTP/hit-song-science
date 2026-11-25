@@ -1,0 +1,7 @@
+# Installs everything (model development + backend).
+# To install only one part, use a file in requirements/ instead:
+#   requirements/base.txt     shared core
+#   requirements/backend.txt  API server
+#   requirements/dev.txt      notebooks, evaluation
+-r requirements/dev.txt
+-r requirements/backend.txt
